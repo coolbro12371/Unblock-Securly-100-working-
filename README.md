@@ -1,1 +1,10 @@
 # Unblock-Securly-100-working-
+* The reason I am leaking this way to unblock securly is because I am tired of the new phone law that was passed in Ohio and will be passed in other states later on too. I am tired of having limits on a laptop and not beening able to have phones in school for the whole day. Make sure you star this repository and share it with friends.
+* Also Zach you're unblock method is trash and it's too bad you're not as smart as I am. LOL.
+1. Step one | First open two pages. Open chrome://extensions/ and chrome://serviceworker-internals/ .
+2. Step two | Next you want to go to chrome://extensions/ and switch on developer mode.
+3. Step three | Then find the extension named Securly For Chromebooks and right under the name it should display the ID of the extension. Example:"ID: abcdefghijklmnopqrstuvwxyzabcdef". (IF YOU DON'T SEE IT YOU NEED TO GO BACK TO STEP TWO!!)
+4. Step four | Copy that ID and go to the chrome://serviceworker-internals/ . Next what you want to do is you want to press CRTL G on your chromebook and paste the ID of the Securly extension in the box.
+5. Step five | When you paste the extension ID into the box it should show highlighted text. You want to read to the right of the highlighted text and make sure you see chrome-extension://ckecmkbnoanpgplccmnoikfmpcdladkc/securly.min.js when you see that you should have the right extension.
+6. Step six | Now follow carefully. You want to press the button under the Log that says INSPECT. Once you have done that you are currently in DevTools and are in the Console tab. So what you want to do is go over to the Network tab and you should see a list of things and they are in a row called Name. IF YOU DON'T SEE the list of things labeled ?broker/name you should go back to the service worker page and look where it has a Stop button, click that and it should turn into the Start button. You need to click the Start button and then click the Inspect button. Go to the Network tab again on the new DevTools you opened and keep retrying until you get the list.
+7. Step seven | Now once you see the list it should contain two ?broker/user things and you need to.
